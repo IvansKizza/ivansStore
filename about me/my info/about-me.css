@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+/* nav{
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    color:orange;
+}  */
+
+.main{
+    width: 100%;
+    padding: 78px 0;
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7));
+}
+.main img{
+    height: auto;
+    /* width: 440%; */
+    width: 400px;
+    border-radius: 800px;
+    border: 3px dotted rgb(241, 140, 7);
+}
+
+#cartoon-photo{
+    height: auto;
+    width: 400px;
+}
+.text{
+    width: 550px;
+}
+.me{
+    width: 1110px;
+    max-width: 95%;
+    margin: o auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h1{
+    color: goldenrod;
+    font-size: 5pc;
+    text-transform: capitalize;
+    /* margin-bottom: 10pc; */
+    text-align: center;
+}
+.text h3{
+    color: #fff;
+    /* text-transform: uppercase; */
+    text-align: center;
+
+}
+.text p{
+    color: tan;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+a{
+    color: rgb(139, 129, 103);
+    font-size: 20px;
+    border-radius: 60px;
+    border: 3px solid tan;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: none;
+}
+.btn{
+    background: gold;
+    background-color: gold;
+    /* justify-content: center; */
+}
+a:hover{
+    color: #fff;
+}
+
+
+
+
+.nita{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(60deg, pink, black);
+    height: auto;
+}
+
+.nozi h1{
+    color: orange;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.nozi p{
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+#name{
+    float: left;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#name h3{
+    margin: 0 10px;
+    color: blue;
+}
+#email{
+    float: centre;
+    margin: 0 10px 0 70px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#email>h3{
+    float: left;
+    margin: 0 10px 0 70px;
+    color: blue;
+}
+#help{
+    /* margin-bottom: 80px; */
+    font-size: 30px;
+    margin: 0 10px 10px 40px;
+    font-weight: bold;
+}
+#help h3{
+    margin: 80px 10px 0 40px;
+    color: blue;
+}
+#ivans{
+    float: right;
+    /* display: flex; */
+    /* margin-top: 200px; */
+}
+#button{
+    padding: 10px 10px;
+    width: 10%;
+    display: inline;
+    border: 0;
+    cursor: pointer;
+    margin: 0 30px 40px 600px;
+    border-radius: 5px;
+    background: rgb(14, 177, 226);
+    outline: none;
+    /* float: right; */
+}
+#reset{
+    padding: 10px 10px;
+    width: 10%;
+    display: inline;
+    border: 0;
+    cursor: pointer;
+    margin: 0 20px 40px 600px;
+    border-radius: 5px;
+    background: rgb(14, 177, 226);
+    outline: none;
+}
+.love{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.love h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(19, 18, 17);
+    
+}
+.mine img{
+    margin: 0 0 0 40px;
+    border: none;
+    border-radius: 0;
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.hate{
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 40px;
+    
+}
+.hate p{
+    font-size: 20px;
+    color: black;
+}
